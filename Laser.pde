@@ -16,4 +16,18 @@ public class Laser {
    pos.add(vel); 
     
   }
+  public void collides(Enemy enemy){
+  if (this.pos.x >= enemy.pos.x
+  && this.pos.x <= enemy.pos.x + enemy.SIZE
+  && this.pos.y >= enemy.pos.y
+  && this.pos.y <= enemy.pos.y + enemy.SIZE){
+   enemy.hp--; 
+   if(enemy.hp == 0)
+    enemy.eActive == false;
+    active = false;
+  }
+    
+    
+    
+  }
 }
