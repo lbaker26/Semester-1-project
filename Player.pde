@@ -9,7 +9,7 @@ public class Player {
     pos = new PVector(x, y);
     vel = new PVector(0, 0);
   }
-
+//show
   public void show() {
     fill(178, 190, 181);
     square(pos.x, pos.y, SIZE);
