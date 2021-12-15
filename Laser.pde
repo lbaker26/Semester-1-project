@@ -1,7 +1,7 @@
 public class Laser {
   private PVector pos, vel, size;
   private boolean active = true;
-  
+ 
   public Laser(PVector pos) {
    this.pos = pos; 
    vel = new PVector(0,-30);
